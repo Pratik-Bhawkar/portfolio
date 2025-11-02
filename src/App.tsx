@@ -76,7 +76,7 @@ export default function App() {
                     <div className="mt-4">
                       <div className="text-xs uppercase tracking-widest text-neutral-400">Profile Summary</div>
                       <p className="mt-2 max-w-2xl text-neutral-300">
-                        Ambitious developer specializing in AI and machine learning with the MERN stack, building smart, reliable apps. Whether crafting smooth user experiences with React or implementing AI-powered features, I prioritize security and performance. I enjoy collaborating, sharing ideas, and turning big challenges into simple, useful solutions. My favorite projects blend technology and creativity—interactive dashboards and recommendation tools that make a real impact in everyday life.
+                        Aspiring Full-Stack AI Engineer with expertise in Python, SQL, and AI/ML technologies. Experienced with FastAPI, LangChain, RAG systems, and database development. Skilled in data analytics using Power BI, Python libraries (Pandas, NumPy), and machine learning frameworks. Currently learning frontend development while building AI-powered applications and automation solutions.
                       </p>
                     </div>
                     <div className="mt-6 flex flex-wrap items-center gap-3">

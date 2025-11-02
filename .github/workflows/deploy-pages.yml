@@ -30,7 +30,15 @@ jobs:
         run: npm ci
 
       - name: Set BASE_PATH for Pages
-        run: echo "BASE_PATH=/${{ github.event.repository.name }}/" >> $GITHUB_ENV
+        run: |
+          # If a custom domain is configured (public/CNAME exists and is non-empty),
+          # build with a root base ("/") so assets resolve correctly on the custom domain.
+          if [ -f public/CNAME ] && [ -s public/CNAME ]; then
+            echo "BASE_PATH=/" >> $GITHUB_ENV
+          else
+            # Default to repository-based path for project pages
+            echo "BASE_PATH=/${{ github.event.repository.name }}/" >> $GITHUB_ENV
+          fi
 
       - name: Build
         run: npm run build

@@ -33,10 +33,10 @@ export default function Header({ onSwitchProfile }: { onSwitchProfile?: () => vo
               className="font-sans font-extrabold uppercase text-lg sm:text-xl tracking-wider drop-shadow-[0_1px_1px_rgba(0,0,0,0.6)]"
               style={{ letterSpacing: '0.04em' }}
             >
-              <span className="text-brand-500">K</span>
-              <span className="text-white">RISH </span>
-              <span className="text-brand-500">S</span>
-              <span className="text-white">HARDA</span>
+              <span className="text-brand-500">P</span>
+              <span className="text-white">RATIK </span>
+              <span className="text-brand-500">B</span>
+              <span className="text-white">HAWKAR</span>
             </span>
           </a>
 
